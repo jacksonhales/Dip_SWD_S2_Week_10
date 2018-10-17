@@ -17,6 +17,6 @@
         </Grid.RowDefinitions>
         <Button Grid.Row="0" Click="Button_Click" x:Name="btnStart">Start</Button>
         <ProgressBar Grid.Row="1" x:Name="pgbProgress"></ProgressBar>
-        <CheckBox Grid.Row="2" x:Name="chkCheckbox">Checkbox</CheckBox>
+        <CheckBox Grid.Row="2" x:Name="chkCheckbox" IsEnabled="False">Checkbox</CheckBox>
     </Grid>
 </Window>
